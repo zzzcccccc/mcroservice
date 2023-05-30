@@ -1,0 +1,4 @@
+com\study\springcloud\controller\OrderController.class
+com\study\springcloud\myrule\MyselfRule.class
+com\study\springcloud\order\config\ApplicationContextConfig.class
+com\study\springcloud\FeignMain.class
