@@ -17,11 +17,12 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.study.springcloud</groupId>
-            <artifactId>cloud-provide-payment</artifactId>
-            <version>${project.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.study.springcloud</groupId>-->
+<!--            <artifactId>cloud-provide-payment</artifactId>-->
+<!--            <version>${project.version}</version>-->
+<!--        </dependency>-->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -51,6 +52,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <!--openfeign-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
 </project>
