@@ -23,4 +23,9 @@ public class OrderController {
 
         return restTemplate.getForObject(PAYMENT_URL+"/payment/get/"+id,String.class);
     }
+
+    @GetMapping("/consumer/{id}")
+    public String consumer(@PathVariable("id") Long id){
+        return "测试tokenFile";
+    }
 }
